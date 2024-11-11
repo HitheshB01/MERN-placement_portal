@@ -1,7 +1,20 @@
-export default function App() {
+
+import React from 'react';
+import RoutingPage from './components/RoutingPage';
+import LoginPage from './components/LoginPage';
+import JobPortal from './components/JobPortal';
+
+
+
+function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
+    <div>
+      {/* <LoginPage/> */}
+      <RoutingPage/>
+      {/* <JobPortal/> */}
+     
+    </div>
+  );
 }
+
+export default App;
